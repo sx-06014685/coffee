@@ -1,0 +1,149 @@
+
+.banner>img{
+	width:100%;
+	display: none;
+	transition: all 2s;
+	cursor: pointer;
+}
+.banner>img.active{
+	display: block;
+}
+section{
+	margin:0 auto;
+}
+section{
+	width:1200px;
+	padding:0 100px;
+	box-sizing:border-box;
+	margin-top: 36px;
+	margin-bottom: 40px;
+}
+section>.header{
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 6px;
+	margin-bottom: 26px;
+}
+section>.header>ul>li{
+	display: inline-block;
+	margin-right: 34px;
+	cursor: pointer;
+}
+
+.header>ul>li.active{
+	color:#866961;
+	font-weight: 700;
+}
+section>.header>ul>li:hover{
+	transform: scale(1.2);
+	transition: all 1s;
+	font-weight: 700;
+	color:#866961;
+}
+.header>ul>li>p{
+	font-size: 15px;
+	background:url(../imgs/abbg.jpg) no-repeat left center;
+	padding-left: 8px;
+	
+}
+.header>ul>li>p>a{
+	color:#333;
+}
+.header>ul>li>span{
+	font-size: 9px;
+	color:#999;
+}
+.header>p{
+	font-size: 12px;
+	float:right;
+	display: none;
+}
+.header>p.active{
+	display: block;
+}
+.header>p>span:hover a{
+	color:#866961;
+}
+.header>p>.sp1,.header>p>.sp4{
+	color:#333;
+}
+.header>p>.sp2>a,.header>p>.sp3>a{
+	color:#a9a9a9;
+}
+.content{
+	display: none;
+	
+}
+.content.active{
+	display: block;
+}
+.latte .img,
+.cap .img,
+.mocha .img{
+	width:432px;
+	height:505px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.latte .img>img:hover,
+.cap .img>img:hover,
+.mocha .img>img:hover{
+	transform: scale(1.2);
+	transition: all 1s;
+	
+}
+.latte>.text{
+	margin: 10px 0 0 14px;
+}
+.latte>.text>p,
+.cap>.text>p,
+.mocha>.text>p{
+	width:552px;
+	text-indent: 2em;
+	font-size: 15px;
+	color:#333;
+	line-height: 30px;
+	text-align: justify;
+}
+.latte>.text>p:nth-child(2),
+.latte>.text>p:nth-child(3),
+.cap>.text>p:nth-child(2){
+	margin-top: 40px;
+}
+.cap>.text>p{
+	width:528px;
+}
+.cap>.text{
+	margin: 20px 0 0 36px;
+}
+.cap>.text{
+	margin: 20px 0 0 36px;
+}
+.mocha>.text{
+	margin-left:18px;
+}
+.mocha>.text>p{
+	width:548px;
+	margin-top:28px;
+}
+.mocha>.text>p:first-child{
+	margin-top: 18px;
+}
+footer{
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

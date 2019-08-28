@@ -1,0 +1,229 @@
+html,body{ overflow-y:scroll;}
+html,body{ overflow:scroll; min-height:101%;}
+html{ overflow:-moz-scrollbars-vertical;}
+section
+{
+	margin:0 auto;	
+}
+.banner>img{
+	width:100%;
+	display: none;
+	transition: all 2s;
+	cursor: pointer;
+}
+.banner>img.active{
+	display: block;
+}
+section{
+	width:1200px;
+	padding:0 100px;
+	box-sizing:border-box;
+	margin-top: 36px;
+}
+section>.header>ul>li{
+	display: inline-block;
+	margin-right: 34px;
+	cursor: pointer;
+}
+section>.header{
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 6px;
+	margin-bottom: 26px;
+}
+.header>ul>li.active{
+	color:#866961;
+	font-weight:800;
+}
+.header>ul>li:hover{
+	transform: scale(1.2);
+	transition: all 1s;
+	color:#866961;
+}
+.header>ul>li>p{
+	font-size: 13px;
+	background:url(../imgs/abbg.jpg) no-repeat left center;
+	padding-left: 8px;
+}
+.header>ul>li>p>a{
+	color:#333;
+}
+.header>ul>li>span{
+	font-size: 9px;
+	color:#999;
+}
+.header>p{
+	font-size: 12px;
+	float:right;
+	display: none;
+}
+.header>p.active{
+	display: block;
+}
+.header>p>.sp1,.header>p>.sp4{
+	color:#333;
+}
+.header>p>.sp2>a,.header>p>.sp3>a{
+	color:#a9a9a9;
+}
+.header>p>.sp2:hover a,
+.header>p>.sp3:hover a{
+	color:#866961;
+}
+.content{
+	display: none;
+}
+.content.active{
+	display: block;
+}
+/*公司简介*/
+.protile>p{
+	font-size: 12px;
+	color:#666;
+	line-height: 24px;
+	margin-top: 28px;
+	text-indent: 2em;
+}
+.protile>p:last-child{
+	margin: 30px 0 42px;
+}
+/*新闻中心*/
+.news>.list>.listone{
+	width:994px;
+	height:50px;
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 60px;
+	box-sizing: border-box;
+	margin-top: 24px;
+}
+.news>.list>.listone.bn{
+	border-bottom: none;
+	margin-bottom: 74px;
+}
+.news>.list>.listone>.time{
+	padding-right:26px;
+	border-right:1px solid #f2f2f2;
+}
+.news>.list>.listone>.time>h3{
+	font-size: 36px;
+	color:#866961;
+	text-align: center;
+}
+.news>.list>.listone>.time>p{
+	font-size: 12px;
+	color:#999;
+	text-align: center;
+}
+.news>.list>.listone>.line{
+	width:994px;
+	height:10px;
+	background: #f2f2f2;
+}
+.news>.list>.listone>.new{
+	padding-left:26px;	
+}
+.news>.list>.listone>.new>h3{
+	font-size: 12px;
+	width:880px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height:14px;	
+}
+.news>.list>.listone>.new>h3>a{
+	color:#866961;
+}
+.news>.list>.listone>.new>p{
+	font-size: 12px;
+	color:#666666;
+	margin-top: 22px;
+	text-align: justify;
+	width:880px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height:20px;
+}
+/*公司历程*/
+.course{
+	margin:28px 0 45px;
+}
+.course .course_L h3{
+	font-size: 20px;
+	color: #999;
+	margin-bottom: 10px;
+}
+.course .course_L h3:hover{
+	color:#866961;
+}
+.course .course_L h3.active{
+	color:#866961;
+}
+.course .course_L p{
+	margin-left:25px;
+}
+.course .course_L p:nth-of-type(1){
+	width:1px;
+	height:58px;
+	background: #d5d5d5;
+}
+.course .course_L p:nth-of-type(2){
+	width:1px;
+	height:111px;
+	background: #d5d5d5;
+}
+.course .course_L p:nth-of-type(3){
+	width:1px;
+	height:48px;
+	background: #d5d5d5;
+}
+.course .course_L p:nth-of-type(4){
+	width:1px;
+	height:125px;
+	background: #d5d5d5;
+}
+.course .course_R{
+	width:850px;
+}
+.course .course_R ul{
+	margin-left:90px;
+}
+.course .course_R ul li{
+	width:850px;
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 26px;
+	font-size: 13px;	
+	padding-bottom: 6px;
+	color:#666666;
+}
+.course .course_R ul li>span{
+	margin-right: 23px;
+}
+.course .course_R ul li>a{
+	color:#666666;
+}
+.course .course_R ul li:hover a{
+	color:#866961;
+}
+.course .course_R ul li.active{
+	color:#866961;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

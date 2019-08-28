@@ -1,0 +1,103 @@
+
+.banner{
+	overflow: hidden;
+	cursor: pointer;
+}
+.banner>img{
+	width:100%;
+}
+.banner>img:hover{
+	transform: scale(1.2);
+	transition: all 1s;
+}
+section{
+	width:1200px;
+	margin:0 auto;
+	padding: 0 100px;
+	box-sizing: border-box;
+}
+section>.header{
+	margin-top: 36px;
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 6px;
+}
+section>.header>.header_L>p{
+	font-size: 14px;
+	font-weight: 700;
+	color:#866961;
+	background:url(../imgs/abbg.jpg) no-repeat left center;
+	padding-left: 8px;
+}
+section>.header>.header_L>span{
+	font-size: 9px;
+	color:#999;
+	margin-top: 4px;
+}
+section>.header>.header_R>p{
+	display: inline-block;
+	color:#333;
+}
+section>.header>.header_R>p:hover a{
+	color:#866961;
+}
+section>.header>.header_R>p>a{
+	display: inline-block;
+	color:#999999;
+}
+section>#allmap{
+	width:994px;
+	height:336px;
+	margin: 22px 0 55px;
+}
+.section_bottom{
+	margin:50px 0;
+}
+.section_bottom div{
+	display: inline-block;
+	position: relative;	
+	left: 60px;
+}
+.section_bottom div h3{
+	font-size: 18px;
+	color:#333333;
+}
+.section_bottom div h4{
+	font-size: 11px;
+	color:#a1a1a1;
+	line-height: 1;
+	margin:10px 0 30px;
+}
+.section_bottom div p{
+	font-size: 14px;
+	color:#333;
+	line-height: 1;
+	margin-bottom: 12px;
+}
+.section_bottom div span{
+	font-size: 13px;
+	color:#999999;
+	line-height: 1;
+}
+.section_bottom div img{
+	position: absolute;
+	top:0px;
+	left:-48px;
+	
+}
+
+.section_bottom .b2{
+	margin:0 136px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
